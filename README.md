@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/allthatjazzleo-mantrachain-mcp-badge.png)](https://mseep.ai/app/allthatjazzleo-mantrachain-mcp)
+
 # MantraChain MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@allthatjazzleo/mantrachain-mcp)](https://smithery.ai/server/@allthatjazzleo/mantrachain-mcp)
