@@ -4,6 +4,7 @@ import type { Address, Hash, Hex } from 'viem';
 import { MantraClient } from '../mantra-client.js';
 import * as services from '../evm-services/index.js';
 import { networks } from '../config.js';
+import { convertBigIntToString } from '../utils.js';
 
 export function registerBankTools(server: McpServer, mantraClient: MantraClient) {
   // Define bank send tool
@@ -91,7 +92,7 @@ export function registerBankTools(server: McpServer, mantraClient: MantraClient)
 				const balance = await services.getBalance(address, networkName);
 
 				return {
-					content: [{type: "text", text: JSON.stringify(balance)}],
+					content: [{type: "text", text: JSON.stringify(convertBigIntToString(balance))}],
 				};
 			} catch (error) {
 				return {
