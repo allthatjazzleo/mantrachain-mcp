@@ -1,6 +1,6 @@
 {
   "name": "mantrachain-mcp",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Model Context Protocol server for MantraChain (Cosmos SDK) with EVM support",
   "main": "build/index.js",
   "type": "module",
